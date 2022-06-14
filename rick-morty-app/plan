@@ -1,0 +1,46 @@
+1. basic functionality
+2. manual tests (description of the test cases)
+3. created and followed development plan
+4. DEMO presentation
+
+DEVELOPMENT PLAN:
+
+1. IDEA. A website of Animation TV series "Rick and Morty". It will be possible to:
+
+- see the list of characters; +
+
+- go inside of their profiles to read more information;
+
+- filter characters by values (name, gender, etc...):
+  jei filtruojame pagal gender, atsiranda antri optionai, kur galima filtruoti pagal M / F ir t.t.
+
+- update information;
+- delete character;
+- create a new character.
+
+2. Find API: https://rickandmortyapi.com/documentation/#javascript-client +
+
+3. Create an interface using data from API. +
+
+4. FETCH API to GET | POST | DELETE data
+
+5. Create structure and styles to display data from API:
+
+- HTML;
+- bootstrap;
+
+6. Make functionalities: filter, update, delete.
+
+7. Create Backend: router to reach certain pages. Node js. Express.
+   OR
+   SQL --
+
+explorer JS model: response is able to render files.
+
+8. Create manual test (describe cases where I need to execute tests)
+
+9. Create login form
+
+10. generate character after entering your name: enter your name --> click generate --> your character appears
+
+11.

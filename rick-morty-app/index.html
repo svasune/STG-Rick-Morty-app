@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="p-5">
+    <h1>Rick & Morty</h1>
+    <form class="form-row align-items-center">
+        <div class="form-group col-auto my-1">
+            <label for="filter">Filter by</label>
+            <select id="filter-options" class="custom-select mr-sm-2">
+                <option value="gender">gender</option>
+                <option value="species">species</option>
+                <option value="origin">origin</option>
+                <option value="location">location</option>
+                <option value="epsiode">epsiode</option>
+                <option value="status">status</option>
+            </select>
+            <label for="filter">options</label>
+            <select id="filter-options" class="custom-select mr-sm-2">
+                <option value="gender-m">male</option>
+                <option value="gender-f">female</option>
+
+            </select>
+            <button type="submit" class="btn btn-primary mt-2">filter</button>
+        </div>
+    </form>
+
+    <div id="toAppend" style="display: grid; grid-template-columns: repeat(4, 2fr);"></div>
+</body>
+<script src="script.js"></script>
+
+</html>
